@@ -16,3 +16,110 @@ body{
     margin: 1rem 2rem;
     
 }
+.right{
+    vertical-align: center;
+    
+}
+.nav-appicon{
+    vertical-align: middle;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin :.5rem;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.Sıgn-In{
+    color: white;
+  background-color: #4284F5;
+  border: none;
+  width: 96px;
+  height: 36px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.Sıgn-In:hover{
+cursor: pointer;
+box-shadow: rgb(154, 154, 154) 2px 2px 2px 2px;
+}
+
+
+/* --------main----------- */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9rem;
+    
+    
+}
+.search-bar{
+    border: 1px solid #D3D3D3;
+    border-radius: 20px;
+    width: 560px;
+    height: 39px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: .5rem;
+    
+}
+
+.search-bar input{
+    width: 480px;
+    font-size: 13px;
+    border: none;
+    padding: 2px;
+    outline: none;
+    margin-top: 2px;
+}
+
+.main-buttons-left,  .main-buttons-right{
+    width: 140px;
+    border: none;
+    height: 36px;
+    border-radius: 4px;
+    margin: 20px 0px;
+    padding: 0px 16px;
+}
+.main-buttons-left:hover,.main-buttons-right:hover{
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+box-shadow: rgb(154, 154, 154) 1px 1px 10px;
+}
+.main__language a{
+    text-decoration: none;
+}
+.main__language a:hover{
+    text-decoration: underline;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #dadce0;
+    width: 100%;
+}
+.footer-country{
+    font-size: 14px;
+    padding-left: 35px;
+    border-bottom: 1px solid  #F2F2F2;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.footer-bottom a{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+   
+}
+.footer-bottom a:hover{
+    text-decoration: underline;
+}
